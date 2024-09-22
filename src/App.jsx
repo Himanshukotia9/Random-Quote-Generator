@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div className='flex flex-col text-center items-center justify-center min-h-screen font-serif w-[90vw] max-w-lg mx-auto'>
-      <h1 className='text-2xl md:text-6xl text-center mx-5 bg-[#B85042] py-5 px-16 text-white font-bold w-full rounded-t-lg'>Ruote Generatorandom Q</h1>
+      <h1 className='text-2xl md:text-6xl text-center mx-5 bg-[#B85042] py-5 px-16 text-white font-bold w-full rounded-t-lg'>Random Quote Generator</h1>
       <div className='bg-[#A7BEAE] p-5 w-full rounded-b-lg'>
         <div id='' className='flex flex-col items-center justify-center pb-3 w-3/4 mx-auto'>
           <p id='' className='font-bold text-slate-800'>{quote}</p>
